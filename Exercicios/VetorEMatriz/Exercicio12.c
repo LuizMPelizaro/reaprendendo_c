@@ -14,8 +14,8 @@ int valueGenerator(int MaxValue) {
 int main(void) {
     srand((time(NULL)));
     int vetor[5], menor, maior, i;
-    float media;
-    size_t sizeVetor = sizeof (vetor)/sizeof (vetor[0]);
+    float media = 0;
+    size_t sizeVetor = sizeof(vetor) / sizeof(vetor[0]);
     for (i = 0; i < 5; i++) {
         vetor[i] = valueGenerator(100);
         media += vetor[i];
