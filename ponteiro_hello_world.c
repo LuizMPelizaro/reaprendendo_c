@@ -12,8 +12,8 @@ int main() {
 
     /*
      * A função malloc significa memory alocation
-     * sizeof mede o tamanho de algo , no caso da variavel hello
-     * malloc aloca um determina espaço de mememoria do tamnho do array hello, que é medido com a função sizeof
+     * sizeof mede o tamanho de algo, no caso da variavel hello
+     * malloc aloca um determina espaço de mememoria do tamnho do array hello, medido com a função sizeof
      * *hello2 é um ponteiro pois aponta , aonde vai estar o endereço na heap
      * strcpy pega a varivel hello antiga e copia ela para o novo espaço na heap, essa sera a unica duplicata que teremos
      * ENTENDER QUE NA VARIAVEL hello2 NÃO TEREMOS A STRING "Hello World" E SIM O ENDEREÇO PRO PRIMEIRO BYTE NA HEAP ,
