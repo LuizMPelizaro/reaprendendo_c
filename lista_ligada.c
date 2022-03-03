@@ -3,8 +3,7 @@
 //
 #include "stdio.h"
 #include "stdlib.h"
-#include "string.h"
-#include "stdbool.h"
+
 
 /*
  * Cria uma struct node "nó" em portugues.
@@ -20,7 +19,8 @@ struct Node {
  * createNode recebe um valor inteiro qualquer e o previous (nó anterior) para apontar para tal.
  * Utilizaremos malloc para alocar essa nova struct.
  * E preenchemos o campo value.
- * Caso o campo não seja o primeiro que ira apontar para NULL, pois não existe um nó antes dele, daremos o valor anterior para que o nó aponte.
+ * Caso o campo não seja o primeiro que ira apontar para NULL, pois não existe um nó antes dele,
+ * daremos o valor anterior para que o nó aponte.
  */
 
 struct Node *createNode(int value, struct Node *previous) {
